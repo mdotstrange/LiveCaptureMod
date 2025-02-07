@@ -36,3 +36,9 @@ It will save your takes in a new folder named appropriately
 You don't have to worry about naming or messing with any of that
 Do as many takes as you like for each audio file
 When finish you will see a "Takes" folder in your Project window- that is the folder you will give to me when you're done
+
+# Live capture notes
+
+* Live capture playback at runtime won't work in Slate if the actor has an Animation Controller loaded into its Animator component
+* The head rotation won't play back at runtime so add additional ARKITHeadBone as a parent of the head bone and rotate this new one
+* Use soft interpolation on a custom evaluator for more realistic blendshape animation
