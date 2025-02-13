@@ -15,7 +15,7 @@ Launch the Face Capture App on your device
 
 (In Unity)
 Install ARKIT package from package manager
-Import LiveCapture custom package I provide(ignore red text errors about missing pngs)
+Import LiveCapture custom package I provided here above(ignore red text errors about missing pngs)
 Go to Window--> Live Capture--> Connections and dock that window to a tab behind the inspector-- click create server(companion server etc)
 Double click the scene file in LiveCapture/ARKit Face Sample/FaceCaptureSample.unity
 You will see a head- move the viewport around so you can see it well- put the game tab somewhere else not behind the Scene view
